@@ -389,11 +389,7 @@ cc_library_static {
         integer_overflow: true,
         misc_undefined: ["bounds"],
         // Enable CFI if this becomes a shared library.
-        cfi: true,
-	config: {
-            cfi_assembly_support: true,
-        },
-        blocklist: "libhevc_blocklist.txt",
+        // cfi: true,
     },
 
     apex_available: [
@@ -773,11 +769,7 @@ cc_library_static {
         integer_overflow: true,
         misc_undefined: ["bounds"],
         // Enable CFI if this becomes a shared library.
-        cfi: true,
-	config: {
-            cfi_assembly_support: true,
-        },
-        blocklist: "libhevc_blocklist.txt",
+        // cfi: true,
     },
 
     apex_available: [
